@@ -1,0 +1,180 @@
+/*=========Desktop First Method*=============/
+
+/*large Devices, Wide Screens*/
+@media only screen and (max-width : 1200px){
+	.head_box{
+		text-align: center;
+	}
+    .btn_section{
+    	float:none;
+    	padding-right: 0;
+    }
+    .head_box .title{
+    	padding-left: 0;
+    	padding-top: 30px;
+    }
+    .head_box .title::before{
+    	right: 0;
+    	top: 0;
+    	top: 5px;
+    	margin: 0px auto;
+
+    }
+    .items_services{
+	    margin-bottom: 50px;
+}
+}
+/*Medium Devices,Desktops*/
+@media only screen and (max-width : 992px){
+	.news ul{
+		bottom: -60px;
+		right: 30px;
+	}
+	.items_news{
+		text-align: center;
+		padding-bottom: 35px;
+
+	}
+	.items_news img{
+		width: 100%;
+	}
+    .img_mobile{
+    	display:block;
+    }
+    .top_footer{
+    	text-align: center;
+    }
+    .footer_contact{
+    	display:	inline-block;
+    	width: 250px;
+    	text-align: left;
+    }
+.top_footer .map iframe{
+   float: none;
+}
+}
+
+/*Small Devices, Desktops*/
+@media only screen and (max-width : 768px){
+.phone,
+.email,
+.btn{
+	float:none;
+}
+.top_header{
+	text-align: center;
+	padding-bottom: 15px;
+}
+.items_box .items{
+	padding-top: 20px;
+}
+.news .items_news{
+	padding-bottom: 35px;
+
+}
+.news .items_news img{
+	margin: 0 auto;
+}
+.img_mobile{
+	display:inline-block;
+	width: 50%;
+}
+}
+
+@media only screen and (max-width : 740px){
+.logo img{ 
+	width: 47px;
+}
+.menu ul{
+display:none;
+position:absolute;
+left: 0;
+right: 0;
+top: 230px;
+text-align: center;
+z-index:15;
+background-color: #fff;
+}
+.menu li{
+	display: block;
+
+}
+.menu li+li{
+	padding: 0;
+}
+.menu a{
+	padding: 8px 0;
+	display:block;
+}
+.btn_menu{
+		display:block;
+		margin: -36px;
+	}
+}
+
+/*extra small devices*/
+@media only screen and (max-width : 480px){
+.slider h3{
+	font-size: 25px;
+}
+.slide_text{
+	font-size: 15px;
+}
+.items_services{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.btn_services{
+ padding-right: 35px;	
+}
+.btn_wrapper a{
+	padding-left: 15px;
+}
+.news .slider_box{
+	padding: 60px 20px 45px 20px;
+}
+.news .slider_box::before{
+	left:20px;
+}
+}
+/*Custom, IPhone Retina*/
+@media only screen and (max-width : 320px){
+
+}
+
+
+
+/*========Mobile First Method=============*/
+
+/*Custom, IPhone Retina*/
+@media only screen and (min-width : 320px){
+
+}
+
+
+/*Extra Small Devices,Phones*/
+@media only screen and (min-width : 480px){
+
+}
+
+@media only screen and (min-width : 740px){
+	.menu ul{
+		display:block !important;
+	}
+
+}
+
+
+@media only screen and (min-width : 768px){
+
+}
+
+
+@media only screen and (min-width : 992px){
+
+}
+
+
+@media only screen and (min-width : 1200px){
+
+}
